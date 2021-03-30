@@ -1,0 +1,542 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    
+}
+.nav{
+    background-color: rgba(233, 101, 25, 0.842);
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    z-index: 1;
+    margin: 0;
+    position: fixed;
+    display: block;
+    transition: top 0.3s;
+    
+    
+}
+/*.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}*/
+.clear-fix{
+    
+    overflow: auto;
+}
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav ul{
+    list-style: none;
+}
+.left-nav{
+    float: left;
+}
+.right-nav{
+    float: right;
+    margin-right: 10px;
+}
+.nav a{
+    float: left;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    /*border: 1px solid white;*/
+    margin: 0;
+    font-weight: 500;
+    transition: background-color 0.3s;
+   
+}
+.nav li{
+    float: left;
+    
+}
+.nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgba(255, 68, 0, 0.116);
+}
+.dropdown-serv{
+    float: left;
+    overflow: hidden;
+}
+.serv-btn{
+    font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.serv-btn:hover{border: none;}
+.serv-dop{
+    display: none;
+    position: fixed;
+    background-color: white;
+    min-width: 115.25px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.205);
+    z-index: 2;
+    top: 58px;
+    left: 203.5px;
+    width: inherit;
+    
+}
+.serv-dop a{
+    float: none;
+    color: black;
+    padding: 9px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+    
+    
+}
+.serv-dop a:hover{
+    background-color: rgb(200, 203, 206);
+}
+.dropdown-serv:hover .serv-dop{
+    display: block;
+}
+.icon-lii{display: none;}
+.icon-bar-nav{display: none;}
+.sunrise-img{
+    overflow: hidden;
+    scroll-behavior: unset;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    position: relative;
+    top: 0;
+}
+.about-cl{
+    display: none;
+    width: 60%;
+    height: auto;
+    border: 1px solid rgba(59, 59, 59, 0.644);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%) ;
+    position: absolute;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 15px;
+}
+.about-cl.visible{display: block;}
+.about-cl h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.about-cl p{
+    text-align: justify;
+}
+.origg a{
+    color: white;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    background-color: rgba(87, 85, 85, 0.911);
+    
+}
+.icon-media{
+    list-style: none;
+    float: right;
+    width: 30%;
+    padding: 25px;
+    margin: 5px;
+}
+.icon-media li{
+    float: left;
+    padding: 5px;
+}
+
+.fa:hover{
+    cursor: pointer;
+}
+
+#google:hover{
+   color: rgb(212, 86, 86);
+   
+}
+#linkedin:hover{
+    color: rgb(60, 63, 240);
+    
+}
+#twitter:hover{
+    color: rgb(53, 97, 243);
+}
+#instagram:hover{
+    color: rgb(247, 102, 102);
+    
+}
+#facebook:hover{
+    color: rgb(25, 10, 235);
+    
+}
+.footer-links{
+    width: 60%;
+   
+}
+
+.footer-links ul{
+    float: left;
+    list-style: none;
+    
+    
+}
+.footer-links ul li{
+    padding: 5px;
+    
+}
+.footer-links ul li a{
+    color: aliceblue;
+}
+.try{
+    width: 100%;
+    height: 20rem;
+}
+.main-foot{
+    margin: 15px;
+    
+}
+
+
+.middle-links,.right-links,.left-links{
+    width: 33%;
+    display: block;
+}
+
+/**************NEWS**********/
+
+.news-inner{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    
+}
+.news-cl{
+    display: block;
+    background-color: black;
+    color: white;
+    width: 0%;
+    float: right;
+    padding: 15px;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    padding-right: 0;
+    margin-right: 0;
+    transition: width 2s;
+    
+    
+    
+}
+.news-inner.visible{
+    display: block;
+}
+
+
+.headed{
+    
+    margin: 0;
+    float: none;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.news-cl h2{
+    width: 70%;
+    display: inline;
+}
+.news-cl span{
+    float: right;
+    width:25% ;
+    top: 0;
+    right: 0;
+    
+}
+#news-icon{
+    float: right;
+    font-size: 32px;
+    top: 0;
+    right: 0;
+    display: inline;
+    cursor: pointer;
+}
+.news-list{
+    width: 98%;
+    overflow: auto;
+    white-space: nowrap;
+    height: 900px;
+    padding-right: 0;
+    margin-right: 0;
+    display: block;
+    float: right;
+}
+.news-list a{
+    float: none;
+    color: rgb(255, 254, 254);
+    padding: 9px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: 1px solid black;
+    border-left: 3px solid  #f76300;
+    background-color: rgb(56, 55, 55);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    
+    
+    
+    
+}
+.news-list a:hover{
+    background-color: #f76300;
+}
+
+
+/***********JOBS*********/
+.jobs-inner{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*vertical-align: baseline;*/
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: unset;
+    
+}
+.jobs-inner.visible{
+    display: block;
+}
+.jobs-cl{
+    width: 40%;
+    height: auto;
+    display: block;
+    background-color: rgb(240, 239, 239);
+    color: rgb(13, 13, 14);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%) ;
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+.jobs-cl form{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+.jobs-cl form input{
+    width: 30%;
+    padding: 7px;
+    margin: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+.jobs-filter{
+    display: none;
+    height: 100px;
+    width: 85%;
+    z-index: 15;
+    position: fixed;
+    background-color: #dad6d6;
+    margin: 0;
+    border:1px solid white;
+   
+    
+}
+.jobs-filter.visible{
+    display: table;
+    
+}
+.filter{
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.filter i{
+    color: #050505;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: color .2s;
+    
+}
+
+.filter p{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+
+}
+.filters{
+    padding: 5px;
+    margin: 3px;
+    text-transform: inherit;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid #f76300;
+    color: #000000;
+    background-color: #97969669;
+    transition: background-color .5s;
+    cursor: pointer;
+    display: inline-table;
+    
+}
+.filters:hover{
+        color: rgb(255, 255, 255);
+        background-color: #f76300;
+    
+}
+.jobs-cl button{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    font-size: 16px;
+    text-transform: inherit;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #f76300;
+    color: #1d1c1c;
+    transition: background-color .5s;
+    font-size:18px ;
+    cursor: pointer;
+    
+}
+.jobs-cl button:hover{
+    color: white;
+    background-color: #f76300;
+}
+
+.council-img{
+    width: 7rem;
+    height: 7rem;
+}
+.jobs-headd{
+    width: 100%;
+    display: flex;
+}
+.find-jb{
+    width: 60%;
+    display: inline-start;
+    
+    
+}
+.jobs-icon-s{
+    width: 40%;
+    float: inline-end;
+}
+#jobs-icon{
+    top: 0;
+    right: 0;
+    float: right;
+    font-size: x-large;
+    transition: color .2s;
+    cursor: pointer;
+}
+#jobs-icon:hover, .filter i:hover{
+    color: #f76300;
+    font-size: 180%;
+}
+#near-me{
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    max-height: 45px;
+    
+}
+#near-me i{
+    padding: 5px;
+    cursor: pointer;
+    float: left;
+    
+
+}
+#near-me p{
+    margin:5px
+
+}
+
+
+
+.jobs-card{
+    
+    display: block;
+    overflow-y: scroll;
+    height: 400px;
+    
+
+    
+}
+.card-j{
+    display: inline-flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f7630033;
+    margin-top: 0;
+}
+.card-j img{
+    float: left;
+    width: 20%;
+    margin-top: 25px;
+}
+.cJbS{
+    float: right;
+    width: 60%;
+    margin-left: 10%;
+    padding: 0;
+    margin-bottom: 5px;
+    
+}
+.cJbS-head {
+    font-size: 20px;
+}
+
+
+
+
