@@ -26,8 +26,11 @@ const tooGleJobs = () => { jobsInner.classList.toggle('visible');/*document.docu
 const tooGleFiltr = () => { jobsFilt.classList.toggle('visible')};
 
 
+
 const shrInkNav = () => {NAVI.classList.toggle('responsive')};
 
+
+window.addEventListener('load',allEr1t);
 BTNMINIBAR.addEventListener('click',shrInkNav);
 ABOUTBTN.addEventListener('click',tooGleAbt);
 NEWSBTN.addEventListener('click',tooGleNews);
