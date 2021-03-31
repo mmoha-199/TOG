@@ -18,7 +18,7 @@ const FILTERICON = document.getElementById('filter-icon');
 
 
 
-
+const allEr1t = () =>{alert('this website is under updating');}
 const eassyoutNews = () => { newsCont.style.width='40%';};
 const tooGleAbt = () => { aboutDiv.classList.toggle('visible')};
 const tooGleNews = () => { newsInner.classList.toggle('visible');document.documentElement.style.overflow='hidden'; eassyoutNews();};
