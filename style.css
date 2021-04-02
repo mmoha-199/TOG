@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    z-index: 0;
     
 }
 body{
@@ -169,8 +170,13 @@ footer{
     float: left;
     padding: 5px;
 }
+.fab{
+    font-size: xx-large;
+    margin: 2px;
+    padding: 2px;
+}
 
-.fa:hover{
+.fab:hover{
     cursor: pointer;
 }
 
@@ -249,7 +255,8 @@ footer{
     display: block;
     background-color: black;
     color: white;
-    width: 0%;
+    width: 40%;
+    height: 100%;
     float: right;
     padding: 15px;
     top: 0;
@@ -318,11 +325,7 @@ footer{
     background-color: rgb(56, 55, 55);
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 16px;
-    
-    
-    
-    
+    font-size: 16px;  
 }
 .news-list a:hover{
     background-color: #f76300;

@@ -27,9 +27,9 @@ const FILTERICON = document.getElementById('filter-icon');
 
 
 const allEr1t = () =>{alert('this website is under updating');}
-const eassyoutNews = () => { newsCont.style.width='40%';};
+//const eassyoutNews = () => { newsCont.style.width='40%';};
 const tooGleAbt = () => { aboutDiv.classList.toggle('visible')};
-const tooGleNews = () => { newsInner.classList.toggle('visible');document.documentElement.style.overflow='hidden'; eassyoutNews();};
+const tooGleNews = () => { newsInner.classList.toggle('visible');document.documentElement.style.overflow='hidden';};
 const tooGleJobs = () => { jobsInner.classList.toggle('visible');/*document.documentElement.style.overflow='hidden';*/};
 const tooGleFiltr = () => { jobsFilt.classList.toggle('visible')};
 
@@ -38,7 +38,7 @@ const tooGleFiltr = () => { jobsFilt.classList.toggle('visible')};
 const shrInkNav = () => {NAVI.classList.toggle('responsive')};
 
 
-window.addEventListener('load',allEr1t);
+//window.addEventListener('load',allEr1t);
 BTNMINIBAR.addEventListener('click',shrInkNav);
 ABOUTBTN.addEventListener('click',tooGleAbt);
 NEWSBTN.addEventListener('click',tooGleNews);

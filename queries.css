@@ -41,6 +41,22 @@
    
   
 }
+@media screen and (max-width:425px){
+  .news-cl,.jobs-cl{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }  
+  
+}
+@media screen and (max-width:1328px){
+  .news-cl,.jobs-cl{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }  
+  
+}
 @media screen and(max-width:770px){
   .nav>ul {padding:3;margin: 8px;}
 }
@@ -59,5 +75,10 @@
   .about-cl {
     width: 80%;
     font-size: 20px;
+  }
+}
+@media  screen and (min-width: 1440px){
+  .news-list {
+    height: 100%;
   }
 }
