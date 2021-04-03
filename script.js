@@ -21,6 +21,8 @@ const JOBSICON = document.getElementById('jobs-icon');
 const FilTers = document.querySelectorAll('.filters');
 const jobsFilt = document.querySelector('.jobs-filter');
 const FILTERICON = document.getElementById('filter-icon');
+const ABOUTICON = document.getElementById('about-icon');
+
 
 
 
@@ -46,6 +48,7 @@ NEWSICON.addEventListener('click',tooGleNews);
 JOBSBTN.addEventListener('click',tooGleJobs);
 JOBSICON.addEventListener('click',tooGleJobs);
 FILTERICON.addEventListener('click',tooGleFiltr);
+ABOUTICON.addEventListener('click',tooGleAbt);
 
 
 

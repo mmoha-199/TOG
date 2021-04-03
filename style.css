@@ -115,6 +115,7 @@ body{
 }
 .icon-lii{display: none;}
 .icon-bar-nav{display: none;}
+/**********MAIN IMAGE *************/
 .sunrise-img{
     overflow: hidden;
     scroll-behavior: unset;
@@ -124,6 +125,8 @@ body{
     position: relative;
     top: 0;
 }
+
+/**********************ABOUT*********/
 .about-cl{
     display: none;
     width: 60%;
@@ -137,7 +140,7 @@ body{
     border-radius: 5px;
     color: aliceblue;
     font-size: 28px;
-    background-color: rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.74);
     padding: 15px;
 }
 .about-cl.visible{display: block;}
@@ -145,12 +148,23 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
+#about-icon{
+    float: right;
+    cursor: pointer;
+}
+#about-icon:hover,.origg a:hover{
+    color: #f76300;
+}
 .about-cl p{
     text-align: justify;
+    color: rgb(240, 209, 209);
 }
 .origg a{
     color: white;
 }
+
+/**********FOOTER******************/
+
 footer{
     width: 100%;
     position: fixed;
@@ -200,22 +214,22 @@ footer{
     
 }
 .footer-links{
-    width: 60%;
+    width: 50%;
+    display: block;
    
 }
 
-.footer-links ul{
+.footer-links div{
     float: left;
     list-style: none;
     
-    
 }
-.footer-links ul li{
-    padding: 5px;
-    
-}
-.footer-links ul li a{
+
+.footer-links  a{
     color: aliceblue;
+    padding: 5px;
+    margin: 5px; 
+    display: inline-block;
 }
 .try{
     width: 100%;
@@ -354,7 +368,7 @@ footer{
     display: block;
 }
 .jobs-cl{
-    width: 40%;
+    width: 50%;
     height: auto;
     display: block;
     background-color: rgb(240, 239, 239);
@@ -364,21 +378,27 @@ footer{
     left: 50%;
     transform: translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%) ;
-    padding: 10px;
-    margin: 5px;
+    margin: 0;
+    padding: 5px;
     text-transform: capitalize;
 }
 .jobs-cl form{
     width: 100%;
     padding: 5px;
     margin: 5px;
+    display: block;
 }
-.jobs-cl form input{
-    width: 30%;
+.jobs-cl form div{
+   
+    display: inline-block; 
+}
+.jobs-cl form div input{
+    width: 30vh;
     padding: 7px;
     margin: 5px;
     outline: none;
     border-radius: 5px;
+    
 }
 .jobs-filter{
     display: none;

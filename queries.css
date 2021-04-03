@@ -7,6 +7,34 @@
       padding: 0;
       
     }
+    .jobs-cl form div{
+      width: 100%;
+    }
+    .jobs-cl form div input{
+      width: 90%;
+    }
+    footer{
+     
+      overflow:scroll;
+      max-height: 30vh;
+      
+     
+      
+    }
+    
+    .middle-links,.right-links,.left-links{
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+      
+    }
+    footer a {
+      width: 100%;
+      text-align: center;
+      
+      
+    }
+    
     
     .nav ul.right-nav{padding: 0;}
     .nav .icon-bar-nav {
@@ -35,8 +63,11 @@
         text-align: center;
         padding: 2px;
     }
-    .middle-links,.right-links,.left-links,.icon-media{
+    .icon-media{
       width: 100%;
+      padding: 0;
+      margin: 0;
+      
   }
    
   
@@ -46,7 +77,17 @@
     width: 100%;
     height: 100%;
     margin: 0;
+    
   }  
+  .about-cl.visible{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    z-index: 30;
+    background-color: rgb(46, 44, 44);
+    overflow:scroll;
+    border-radius: 0;
+  }
   
 }
 @media screen and (max-width:1328px){
