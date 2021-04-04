@@ -37,6 +37,8 @@ const tooGleFiltr = () => { jobsFilt.classList.toggle('visible')};
 
 
 
+
+
 const shrInkNav = () => {NAVI.classList.toggle('responsive')};
 
 
