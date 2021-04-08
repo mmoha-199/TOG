@@ -5,13 +5,13 @@
 }
 body{
     background-color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'IBM Plex Mono', monospace,sans-serif;
     font-size: 16px;
     margin: 0;
     
 }
 .nav{
-    background-color: rgba(233, 101, 25, 0.842);
+    background-color: rgb(76, 145, 98);
     width: 100%;
     overflow: hidden;
     height: auto;
@@ -22,6 +22,16 @@ body{
     transition: top 0.3s;
     
     
+}
+#ride-nav{
+    font-size: 300;
+    z-index: 5;
+}
+#ride-nav a{
+    transition: color .2s;
+}
+#ride-nav a:hover{
+  color: rgb(108, 108, 238);
 }
 /*.sticky{
     position: fixed;
@@ -91,8 +101,8 @@ body{
     min-width: 115.25px;
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.205);
     z-index: 2;
-    top: 58px;
-    left: 203.5px;
+    top: 46px;
+    left: 196px;
     width: inherit;
     
 }
@@ -116,15 +126,21 @@ body{
 .icon-lii{display: none;}
 .icon-bar-nav{display: none;}
 /**********MAIN IMAGE *************/
-.sunrise-img{
+#scots-carousel{
+    width: 80%;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,20%);
+    max-height: 600px;
     overflow: hidden;
-    scroll-behavior: unset;
-    width: 100%;
-    height: auto;
-    z-index: 0;
-    position: relative;
-    top: 0;
 }
+#carou-btn{
+    outline: none;
+    padding: 0;
+    margin: 0;
+    background: 0 0;
+    border: 0;
+ }
 
 /**********************ABOUT*********/
 .about-cl{
@@ -154,7 +170,7 @@ body{
     transition: color .2s;
 }
 #about-icon:hover,.origg a:hover{
-    color: #f76300;
+    color: rgb(76, 145, 98);
 }
 .about-cl p{
     text-align: justify;
@@ -336,14 +352,14 @@ footer{
     display: block;
     text-align: left;
     border: 1px solid black;
-    border-left: 3px solid  #f76300;
+    border-left: 3px solid  rgb(76, 145, 98);
     background-color: rgb(56, 55, 55);
     text-decoration: none;
     text-transform: capitalize;
     font-size: 16px;  
 }
 .news-list a:hover{
-    background-color: #f76300;
+    background-color: rgb(76, 145, 98);
 }
 
 
@@ -445,7 +461,7 @@ footer{
     text-transform: inherit;
     border-radius: 12px;
     outline: none;
-    border: 1px solid #f76300;
+    border: 1px solid rgb(76, 145, 98);
     color: #000000;
     background-color: #97969669;
     transition: background-color .5s;
@@ -455,7 +471,7 @@ footer{
 }
 .filters:hover{
         color: rgb(255, 255, 255);
-        background-color: #f76300;
+        background-color: rgb(76, 145, 98);
     
 }
 .jobs-cl button{
@@ -466,7 +482,7 @@ footer{
     text-transform: inherit;
     border-radius: 5px;
     outline: none;
-    border: 1px solid #f76300;
+    border: 1px solid rgb(76, 145, 98);
     color: #1d1c1c;
     transition: background-color .5s;
     font-size:18px ;
@@ -475,7 +491,7 @@ footer{
 }
 .jobs-cl button:hover{
     color: white;
-    background-color: #f76300;
+    background-color: rgb(76, 145, 98);
 }
 
 .council-img{
@@ -505,7 +521,7 @@ footer{
     cursor: pointer;
 }
 #jobs-icon:hover, .filter i:hover{
-    color: #f76300;
+    color: rgb(76, 145, 98);
     font-size: 180%;
 }
 #near-me{
@@ -541,7 +557,7 @@ footer{
 .card-j{
     display: inline-flex;
     margin-bottom: 10px;
-    border-bottom: 1px solid #f7630033;
+    border-bottom: 1px solid rgb(76, 145, 98)33;
     margin-top: 0;
 }
 .card-j img{
