@@ -13,6 +13,7 @@ body{
 a{
     text-decoration: none;
 }
+
 .nav{
     background-color: rgb(76, 145, 98);
     width: 100%;
@@ -82,12 +83,13 @@ a{
     color: rgb(0, 0, 0);
     border-bottom: 1px solid rgba(255, 68, 0, 0.116);
 }
-.dropdown-serv{
+.roomdown-serv{
     float: left;
     overflow: hidden;
+    
 }
 .serv-btn{
-    font-size: 16px;  
+  font-size: 16px;  
   border: none;
   outline: none;
   color: white;
@@ -123,7 +125,7 @@ a{
 .serv-dop a:hover{
     background-color: rgb(200, 203, 206);
 }
-.dropdown-serv:hover .serv-dop{
+.roomdown-serv:hover .serv-dop{
     display: block;
 }
 .icon-lii{display: none;}
@@ -215,7 +217,7 @@ footer{
 }
 
 #google:hover{
-   color: rgb(212, 86, 86);
+   color: rgb(165, 47, 47);
    
 }
 #linkedin:hover{
@@ -384,6 +386,7 @@ footer{
     cursor: unset;
     
 }
+
 .jobs-inner.visible{
     display: block;
 }
@@ -576,8 +579,117 @@ footer{
     margin-bottom: 5px;
     
 }
-.cJbS-head {
-    font-size: 20px;
+.cJbS-head,.cJbS-foot {
+    display: block;
+    float: right;
+}
+.cJbS-foot i{
+    margin: 5px;
+}
+
+/*********HOTELS**********/
+
+.hotels-inner{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*vertical-align: baseline;*/
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: unset;
+    
+}
+.hotels-cl{
+    width: 30rem;
+    height: auto;
+    display: block;
+    background-color: rgb(240, 239, 239);
+    color: rgb(13, 13, 14);
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%) ;
+    margin: 0;
+    padding: 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.295), 0 2px 6px 0 rgba(0, 0, 0, 0.575) ;
+}
+.check-for{
+    display: flex;
+    border-top: 0.5px solid rgba(155, 154, 154, 0.253);
+    border-bottom: 0.5px solid rgba(155, 154, 154, 0.253);
+    padding-top: 10px;
+    
+
+}
+.check-in,.check-out {
+    display: flexbox;
+    width: 30%;
+    float: none;
+    padding: 5px;
+    margin: 10px;
+}
+.check-for div label{
+    
+    width: 90%;
+    display: block;
+    float: left;
+}
+.check-for div input{
+    width: 90%;
+    height: 30px;
+    display: block;
+
+    float: left;
+}
+#nights{
+    text-align: center;
+}
+#nights i{
+   font-size: 40px; 
+   position: relative;
+   
+}
+.fa-stack-x{
+    font-size: 26px;
+    font-weight: 100;
+    position: absolute;
+    margin-top: -29px;
+    margin-left: 9px;
+    font-weight: bold;
+}
+.check-who{
+    float: left;
+    display: inline-flex;
+    border-bottom: 0.5px solid rgba(155, 154, 154, 0.253);
+}
+.check-who div{
+    
+    padding: 5px;
+    margin: 5px;
+}
+.check-who p {
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+.hot-bottom{
+    display: block;
+    
+    
+}
+.hot-serch-btn{
+    width: 60%;
+    text-align: center;
 }
 
 
