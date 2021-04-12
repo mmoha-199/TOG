@@ -365,39 +365,48 @@
       <div class="hotels-cl">
         <div class="where-ht">
           <h4>where to</h4>
+          <span class="jobs-icon-s">
+            <i class="fa fa-times-circle" aria-hidden="true" id="hotels-icon"></i>
+          </span>
           <p>destination and properties around Scotland</p>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" aria-label="Text input with dropdown button">
-            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
-            <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Separated link</a></li>
-            </ul>
+          <div class="dest-drop">
+            <label for="dest-Dropdown" class="dist-btn"></label>
+            <select name="destination" id="dist-Dropdown" class="disdropdown-content">
+              <option value="1" selected="selected">1</option>
+              <option value="2">edinburgh</option>
+              <option value="3">glasgow</option>
+              <option value="4">scottish borders</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9+</option>
+            </select>
           </div>
         </div>
         <div class="checkin-ht">
           <form class="check-for">
             <div id="check-in">
               <label for="check-in">check-in</label>
-              <input type="number">
+              <div class="check-str">
+                 <input type="text" class="ichino" placeholder="dd/mm/yyyy">
+                 <i class="far fa-calendar-alt icon-cal-ch"></i>
+              </div>
+
               <p id="day-cal1">day</p>
             </div>
             <div id="check-out">
               <label for="check-out">check-out</label>
-              <input type="text">
+              <div class="check-str">
+                 <input type="text" class="ichino" placeholder="dd/mm/yyyy">
+                 <i class="far fa-calendar-alt icon-cal-ch"></i>
+              </div>
               <p id="day-cal2">day</p>
             </div>
             <div id="nights">
-              
-                <i class="far fa-calendar">
-                  <p class="fa-stack-x">
-                    2    
-                  </p>
-                </i>
-                
+              <i class="far fa-calendar">
+                <p class="fa-stack-x">2</p>
+              </i> 
               <p>night</p>
             </div>
             

@@ -631,25 +631,63 @@ footer{
     
 
 }
+#hotels-icon{
+    top: 0;
+    right: 0;
+    padding: 5px;
+    position: absolute;
+    font-size: 20px;
+}
+#hotels-icon:hover{
+    color: rgb(76, 145, 98);
+}
+.disdropdown-content{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(180, 179, 179);
+}
 .check-in,.check-out {
-    display: flexbox;
+    display: block;
     width: 30%;
     float: none;
     padding: 5px;
     margin: 10px;
+    border: 1px solid black;
 }
-.check-for div label{
+.check-for label{
     
-    width: 90%;
+    width: 100%;
     display: block;
     float: left;
 }
-.check-for div input{
+.check-str{
     width: 90%;
-    height: 30px;
-    display: block;
-
-    float: left;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 6;
+    
+    
+}
+.check-str i{
+    position: absolute; 
+    z-index: 7;
+    right: 5px;
+    
+}
+.icon-cal-ch {
+    font-size: 20px;
+    text-align: right;
+    
+}
+.ichino{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(180, 179, 179);
+    
+}
+.icon-cal-ch{
+    padding: 5px;
+    text-align: center;
 }
 #nights{
     text-align: center;
@@ -677,6 +715,9 @@ footer{
     padding: 5px;
     margin: 5px;
 }
+.check-who select{
+    border: 1px solid rgb(136, 134, 134) ;
+}
 .check-who p {
     text-align: center;
     margin: 0;
@@ -688,7 +729,7 @@ footer{
     
 }
 .hot-serch-btn{
-    width: 60%;
+    width: 100%;
     text-align: center;
 }
 
