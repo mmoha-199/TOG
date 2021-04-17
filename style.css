@@ -645,7 +645,9 @@ footer{
     width: 100%;
     outline: none;
     border: 1px solid rgb(180, 179, 179);
+    cursor: pointer;
 }
+
 .check-in,.check-out {
     display: block;
     width: 30%;
@@ -691,6 +693,8 @@ footer{
 }
 #nights{
     text-align: center;
+    margin-top: 15px;
+    margin-right: 5px;
 }
 #nights i{
    font-size: 40px; 
@@ -732,7 +736,10 @@ footer{
     width: 100%;
     text-align: center;
 }
-
+.hot-serch-btn:hover,.hot-serch-btn:active{
+    background-color:rgb(76, 145, 98);
+    color: white;
+}
 
 
 
