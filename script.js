@@ -22,6 +22,14 @@ const FilTers = document.querySelectorAll('.filters');
 const jobsFilt = document.querySelector('.jobs-filter');
 const FILTERICON = document.getElementById('filter-icon');
 const ABOUTICON = document.getElementById('about-icon');
+const hotelsInnr = document.getElementById('hotels');
+//const HOTBTN = document.getElementById('hotls-cont');
+const HOTICON = document.getElementById('hotels-icon');
+const HOTBTN = document.getElementById('hotels-link-btn');
+
+
+
+
 
 
 
@@ -34,6 +42,8 @@ const tooGleAbt = () => { aboutDiv.classList.toggle('visible')};
 const tooGleNews = () => { newsInner.classList.toggle('visible');document.documentElement.style.overflow='hidden';};
 const tooGleJobs = () => { jobsInner.classList.toggle('visible');/*document.documentElement.style.overflow='hidden';*/};
 const tooGleFiltr = () => { jobsFilt.classList.toggle('visible')};
+const tooGleHotls = () => { hotelsInnr.classList.toggle('visible')};
+
 
 
 
@@ -42,7 +52,7 @@ const tooGleFiltr = () => { jobsFilt.classList.toggle('visible')};
 const shrInkNav = () => {NAVI.classList.toggle('responsive')};
 
 
-//window.addEventListener('load',allEr1t);
+window.addEventListener('load',allEr1t);
 BTNMINIBAR.addEventListener('click',shrInkNav);
 ABOUTBTN.addEventListener('click',tooGleAbt);
 NEWSBTN.addEventListener('click',tooGleNews);
@@ -51,6 +61,9 @@ JOBSBTN.addEventListener('click',tooGleJobs);
 JOBSICON.addEventListener('click',tooGleJobs);
 FILTERICON.addEventListener('click',tooGleFiltr);
 ABOUTICON.addEventListener('click',tooGleAbt);
+HOTBTN.addEventListener('click',tooGleHotls);
+HOTICON.addEventListener('click',tooGleHotls);
+
 
 
 

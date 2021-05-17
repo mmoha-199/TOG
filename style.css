@@ -83,11 +83,11 @@ a{
     color: rgb(0, 0, 0);
     border-bottom: 1px solid rgba(255, 68, 0, 0.116);
 }
-.roomdown-serv{
+/*.roomdown-serv{
     float: left;
     overflow: hidden;
     
-}
+}*/
 .serv-btn{
   font-size: 16px;  
   border: none;
@@ -107,7 +107,7 @@ a{
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.205);
     z-index: 2;
     top: 54px;
-    left: 184px;
+    left: 183px;
     width: inherit;
     
 }
@@ -125,11 +125,13 @@ a{
 .serv-dop a:hover{
     background-color: rgb(200, 203, 206);
 }
-.roomdown-serv:hover .serv-dop{
-    display: block;
+.dropdown-serv:hover .serv-dop{
+    display: inline-block;
 }
 .icon-lii{display: none;}
 .icon-bar-nav{display: none;}
+
+
 /**********MAIN CAROUSEL *************/
 #scots-carousel{
     width: 80%;
@@ -590,7 +592,7 @@ footer{
 /*********HOTELS**********/
 
 .hotels-inner{
-    display: block;
+    display: none;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -605,6 +607,9 @@ footer{
     bottom: 0;
     cursor: unset;
     
+}
+.hotels-inner.visible{
+    display: block;
 }
 .hotels-cl{
     width: 30rem;
