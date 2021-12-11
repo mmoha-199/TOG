@@ -1,13 +1,12 @@
 import _ from 'lodash';
 import './client/style/style.scss';
 import './client/style/queries.scss';
-import hanDy from './client/style/img/handyone.jpg';
-import hanDy2 from './client/style/img/handy-2.jpg';
-import hanDy3 from './client/style/img/handy-3.jpg';
-import plump from './client/style/img/plumping.jpg';
-import joiny from './client/style/img/joinery.jpg';
-import lanscap from './client/style/img/landscaping.jpg';
-import elect from './client/style/img/electric.jpg';
+import scott3 from './client/style/img/picture-sct-3.jpg';
+import scott2 from './client/style/img/picture-sct-2.jpg';
+import naTure9 from './client/style/img/nature-9.jpg';
+
+import carousel from 'bootstrap/js/dist/carousel';
+
 
 // Set a same-site cookie for first-party contexts
 document.cookie = 'cookie1=value1; SameSite=Lax';
